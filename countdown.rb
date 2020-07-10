@@ -2,7 +2,6 @@ def countdown(number)
   while number <= 10
     puts "#{number} SECOND(S)!"
     number -= 1
-binding.pry
   end
   "HAPPY NEW YEAR!"
 end
